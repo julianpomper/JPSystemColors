@@ -34,6 +34,20 @@
                ReferencedContainer = "container:">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "JPSystemColors"
+               BuildableName = "JPSystemColors"
+               BlueprintName = "JPSystemColors"
+               ReferencedContainer = "container:">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -49,6 +63,16 @@
                BlueprintIdentifier = "SwiftUISystemColorsTests"
                BuildableName = "SwiftUISystemColorsTests"
                BlueprintName = "SwiftUISystemColorsTests"
+               ReferencedContainer = "container:">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "JPSystemColorsTests"
+               BuildableName = "JPSystemColorsTests"
+               BlueprintName = "JPSystemColorsTests"
                ReferencedContainer = "container:">
             </BuildableReference>
          </TestableReference>
