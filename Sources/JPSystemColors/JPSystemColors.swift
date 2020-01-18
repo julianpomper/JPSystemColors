@@ -17,7 +17,7 @@ public extension Color {
     
     // MARK:- Label
     
-    var label: Color {
+    static var label: Color {
         #if os(tvOS) || os(iOS)
         return Color(UIColor.label)
         
@@ -31,7 +31,7 @@ public extension Color {
         #endif
     }
     
-    var secondaryLabel: Color {
+    static var secondaryLabel: Color {
         #if os(tvOS) || os(iOS)
         return Color(UIColor.secondaryLabel)
         
@@ -44,7 +44,7 @@ public extension Color {
         #endif
     }
     
-    var tertiaryLabel: Color {
+    static var tertiaryLabel: Color {
         #if os(tvOS) || os(iOS)
         return Color(UIColor.tertiaryLabel)
         
@@ -57,7 +57,7 @@ public extension Color {
         #endif
     }
     
-    var quaternaryLabel: Color? {
+    static var quaternaryLabel: Color {
         #if os(tvOS) || os(iOS)
         return Color(UIColor.quaternaryLabel)
         
@@ -72,7 +72,7 @@ public extension Color {
     
     // MARK:- Background
     
-    var backgroundColor: Color {
+    static var backgroundColor: Color {
         let color = Color(
             SwiftUIColor.dynamic(light: .white,
                                  dark: .black)
@@ -87,7 +87,7 @@ public extension Color {
         #endif
     }
     
-    var secondaryBackground: Color {
+    static var secondaryBackground: Color {
         let color = Color(
             SwiftUIColor.dynamic(light:SwiftUIColor(red: 242, green: 242, blue: 247, alpha: 1),
                                  dark: SwiftUIColor(red: 28, green: 28, blue: 30, alpha: 1))
@@ -102,7 +102,7 @@ public extension Color {
         #endif
     }
     
-    var tertiaryBackground: Color {
+    static var tertiaryBackground: Color {
         let color = Color(
             SwiftUIColor.dynamic(light:SwiftUIColor(red: 255, green: 255, blue: 255, alpha: 1),
                                  dark: SwiftUIColor(red: 44, green: 44, blue: 46, alpha: 1))
