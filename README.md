@@ -1,3 +1,3 @@
 # JPSystemColors
 
-A description of this package.
+System colors for SwiftUI
