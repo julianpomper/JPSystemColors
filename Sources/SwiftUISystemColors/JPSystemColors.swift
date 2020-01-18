@@ -1,5 +1,5 @@
 //
-//  SwiftUISystemColors.swift
+//  JPSystemColors.swift
 //  
 //
 //  Created by Julian Pomper on 17.01.20.

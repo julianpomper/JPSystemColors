@@ -1,7 +1,7 @@
 import XCTest
 
-import SwiftUISystemColorsTests
+import JPSystemColorsTests
 
 var tests = [XCTestCaseEntry]()
-tests += SwiftUISystemColorsTests.allTests()
+tests += JPSystemColorsTests.allTests()
 XCTMain(tests)
